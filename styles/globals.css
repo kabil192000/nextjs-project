@@ -1,0 +1,284 @@
+
+.home-container .carousel-item img {
+    object-fit: cover; 
+    width: 100%; 
+    margin-top: 10px;
+    height: 70vh; 
+  }
+  
+ 
+  .home-container .carousel-caption h3 {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .home-container .carousel-caption p {
+    font-size: 1rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+  }
+  
+ 
+  @media (max-width: 767px) {
+    .home-container .carousel-item img {
+      height: 300px; 
+      object-fit: cover; 
+    }
+  
+    .home-container .carousel-caption h3 {
+      font-size: 1.25rem; 
+    }
+  
+    .home-container .carousel-caption p {
+      font-size: 0.875rem; 
+    }
+  }
+  
+  
+  @media (max-width: 1024px) {
+    .home-container .carousel-item img {
+      height: 400px; 
+    }
+  }
+
+  .home-cord-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  
+  .home-cord-container .card {
+    flex: 0 1 calc(18.333% - 1rem); /* For larger screens: 3 cards per row */
+    margin-bottom: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home-cord-container .card {
+      flex: 0 1 calc(50% - 1rem); /* For medium screens (tablets): 2 cards per row */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .home-cord-container .card {
+      flex: 0 1 100%; /* For small screens (phones): 1 card per row */
+    }
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  .card button {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .home-cord-container{
+    background-color: aquamarine;
+    margin-top: 10px;
+  }
+  
+  .login-container {
+    margin-top: 160px;
+    margin-bottom: 160px;
+    margin-left: 650px;
+    margin-right: 650px;
+    border: 1px solid rgb(5, 7, 7);
+    box-shadow: #666;
+    padding: 20px;
+    background-color: rgb(244, 250, 248);
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .login-container {
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 50px;
+    }
+  
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .col-12 {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .col-md-5 {
+      width: 100%;
+    }
+  
+    .form-label {
+      font-size: 14px;
+    }
+  
+    .form-control {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .btn {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  .login-container button{
+     width: 100%;
+
+  }
+
+
+  
+
+.mobiles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.mobile-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.mobile-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.mobile-card h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.mobile-card p {
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+
+.mobile-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.mobile-card button:hover {
+  background-color: #0056b3;
+}
+
+.index-container-products{
+  margin-top: 10px;
+   padding-top: 30px;
+   padding-left: 40px;
+   padding-right: 40px;
+   background-color: #fffdfd;
+
+}
+.index-container-products1{
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+.index-container-products2{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* Container adjustments */
+.index-container-products2 {
+  padding: 20px;
+  background: #f8f9fa;
+}
+
+/* Product card styles */
+.card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Featured product styling */
+.card-featured {
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.card-featured img {
+  border-radius: 16px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .card img {
+    height: 200px;
+  }
+}
+

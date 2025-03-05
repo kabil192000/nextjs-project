@@ -1,0 +1,20 @@
+.header-containner{
+    background-color: rgb(90, 126, 226);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ffffff;
+}
+
+.header-containner h2{
+    color: #ffffff;
+}
+
+.header-containner Button{
+    margin-left: 6px;
+}
+.footer{
+    background-color: rgb(72, 70, 73);
+    padding: 20px;
+    color: #ffffff;
+    margin-top: 50px;
+}
